@@ -31,4 +31,3 @@ def filter_numbers(*a, b):
         return (filter(lambda x: x % 2 == 0, a))
     elif b == PRIME:
         return (filter(is_prime, a))
-
